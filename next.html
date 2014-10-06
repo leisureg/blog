@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <title>leisureg</title>
 <meta name="Keywords" content="Wooden Template, Portfolio Website, Personal, www.mycodes.net, XHTML" />
 <meta name="Description" content="Wooden Template, Portfolio Website, www.mycodes.net from TemplateMo.com" />
@@ -24,50 +24,23 @@
     // etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
     });
     </script>
-<script LANGUAGE="javascript"> <!--密码式登陆-->
-　 <!-- 
-　 function loopy(){ 
-　　 var sWord =""; 
-　　 while(sWord!=""){sWord=prompt("我姓：");} 
-　　 <!--alert("登陆成功！"); -->
-　 } 
-　 loopy() 
-　 //--> 
-　</script>
-
-<script language="javascript"> <!--禁止鼠标滑动-->
+<script language="javascript"> 
 function stop(){ 
 return false; 
 } 
 document.onmousewheel=stop; 
 </script>
+<script language="javascript">
 
-<script LANGUAGE="JavaScript"> <!--时间显示-->
-function clock() 
-{ 
-now=new Date(); 
-document.clock.time.value=now.toLocaleString().split(" ")[1]; 
-document.clock.date.value=now.toLocaleString().split(" ")[0]; 
-setTimeout("clock()",100); 
-} 
 </script> 
-<form name="clock" style="margin-top:auto"> 
-time: <input type="text" name="time" size="8" value="">
-date: <input type="text" name="date" size="12" value=""> 
-</form> 
-
 </head>
-<body style="overflow:hidden" onload="clock()"><!--设置滑动条的全部隐藏-->
-
+<body style="overflow:hidden">
 <div id="templatemo_site_title_bar_wrapper">
-<div id="templatemo_container"><!--添加电灯-->
-	<div id="bulb"></div>
-	</div>
   <div id="templatemo_site_title_bar">
     <div id="site_title">
-      <h1><a href="http://www.baidu.com" target="_parent">leisureg <span>我的个人网站</span> </a></h1>
+      <h1><a href="http://www.baidu.com" target="_parent">leisureg <span>leisureg.web-206.com</span> </a></h1>
     </div>
-    <div id="twitter"><a href="next.html">百度一下</a></div>
+    <div id="twitter"><a href="http://www.baidu.com">百度</a></div>
   </div>
   <!-- end of templatemo_site_title_bar -->
 </div>
@@ -78,37 +51,41 @@ date: <input type="text" name="date" size="12" value="">
     <div class="slider-wrap">
       <div id="slider1" class="csw">
         <div class="panelContainer">
-          <div class="panel"  title="主页">
+          <div class="panel" title="主页">
             <div class="wrapper">
-             <h2>欢迎啊！</h2>
+              <h2>欢迎啊！</h2>
              <div class="image_wrapper fl_image"> <img src="images/2012.jpg" alt="image"/></div>
- 
-			  <div style=" position:absolute;bottom:20px;left:10px"> <p><a href="#2" class="cross-link" title="Go to Page 2"> 下一页 &#187;</a></p></div>
+              <p><a href="#2" class="cross-link" title="Go to Page 2"> 下一页 &#187;</a></p>
             </div>
-				 
+			
+			 
+              
 		  </div>
-          <div class="panel"  title="音乐">
+          <div class="panel"  title="简介">
             <div class="wrapper">
-              <h2>音乐</h2>
+              <h2>简介</h2>
+              <p>我的个人简介</p>
               <ul class="service_list">
-              <center>  <embed  src='http://box.baidu.com/widget/flash/mbsong.swf?name=%E8%AF%97%E4%BA%BA%E6%BC%AB%E6%AD%A5&artist=%E8%94%A1%E4%BE%9D%E6%9E%97' width='400' height='49' ></embed></center>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
+                <li><a href="http://www.baidu.com" title="www.baidu.com" target="_parent">百度</a></li>
               </ul>
               <div class="cleaner_h20"></div>
-              <div style=" position:absolute;bottom:20px;left:10px">
-			  <p><a href="#1" class="cross-link" title="Go to Page 1">&#171; 上一页</a> | <a href="#3" class="cross-link" title="Go to Page 3">下一页 &#187;</a></p>
-			  </div>
+              <p><a href="#1" class="cross-link" title="Go to Page 1">&#171; 上一页</a> | <a href="#3" class="cross-link" title="Go to Page 3">下一页 &#187;</a></p>
             </div>
           </div>
-          <div class="panel" title="动漫">
+          <div class="panel" title="图片展示">
             <div class="wrapper">
-              <h2>动漫展示</h2>
-              <div class="portfolio_box margin_r50">
+              <h2>图片展示</h2>
+              <!--<div class="portfolio_box margin_r50">
                 <h3>《死神》</h3>
                 <div class="port_img"> <img src="images/02.jpg" alt="project 1" /> </div>
                 <div class="port_content">
                   姓名:  黑崎一护<br />
 				  身份:  死神代理<br />
-				  班号:  12<br  />
 				  学号:  6<br />
 				  生日:  7月15日<br />
 				  血型:  AO型<br />
@@ -116,9 +93,7 @@ date: <input type="text" name="date" size="12" value="">
                 <a href="http://baike.baidu.com/view/44564.htm" target="_blank">更多</a> </div>
                 <div class="cleaner"></div>
 				 <div class="cleaner_h10"></div>
-				 <div style=" position:absolute;bottom:20px;left:10px">
-                  <p><a href="#2" class="cross-link" title="Go to Page 2">&#171; 上一页</a> | <a href="#4" class="cross-link" title="Go to Page 4">下一页 &#187;</a></p>
-				  </div>
+              <p><a href="#2" class="cross-link" title="Go to Page 2">&#171; 上一页</a> | <a href="#4" class="cross-link" title="Go to Page 4">下一页 &#187;</a></p>
               </div>
               <div class="portfolio_box margin_r50">
                 <h3>《名侦探柯南》</h3>
@@ -146,7 +121,7 @@ date: <input type="text" name="date" size="12" value="">
 				 国籍:  火之国木叶忍者村<br />
                  星座:  天枰座<br />
 				 实力:  超越影级<br />
-                <a href="http://baike.baidu.com/view/23471.htm" target="_blank">更多</a> </div>
+                <a href="http://baike.baidu.com/view/23471.htm" target="_blank">更多</a> </div>-->
                 <div class="cleaner"></div>
               </div>
               <div class="cleaner_h10"></div>
@@ -154,41 +129,12 @@ date: <input type="text" name="date" size="12" value="">
           </div>
           <div class="panel"  title="联系我们">
             <div class="wrapper">
-              <h2>联系我们</h2>
-              <b><p>QQ: 846258825</p>
-              <p>邮箱号：leisureg@163.com</p>
-              <p>地址：陕西省宝鸡市</p></b>
-			  <div style=" position:absolute;bottom:20px;left:10px">
-              <p><a href="#3" class="cross-link" title="Go to Page 3">&#171; 上一页</a> | <a href="#5" class="cross-link" title="Go to Page 5">下一页 &#187;</a></p>
-			  </div>
+             
             </div>
           </div>
           <div class="panel"   title="留言">
             <div class="wrapper">
-              <h2>您的信息</h2>
-              <div id="contact_form">
-                <form action="next.php" method="post" name="contact" id="contact">
-                  <label for="author">姓名:</label>
-                  <input type="text" id="author" name="name" class="required input_field" value="无痕" />
-                  <div class="cleaner_h10"></div>
-				  <p></p>
-                  <label for="email">邮箱:</label>
-                  <input type="text" id="email" name="email" class="validate-email required input_field" value="leisureg@163.com" />
-                  <div class="cleaner_h10"></div>
-                  <label for="text">意见:</label>
-                  <textarea id="text" name="text" rows="0" cols="0" class="required"  >欢迎您的意见，嘿嘿</textarea>
-                  <div class="cleaner_h10"></div>
-                  <input style="font-weight: bold;" type="submit" class="submit_btn" name="submit" id="submit" value=" 发送 " />
-                  <input style="font-weight: bold;" type="reset" class="submit_btn" name="reset" id="reset" value=" 重置 " />
-                </form>
-              </div>
-              <div class="address_info">   
-              </div>
-              <div class="cleaner_h20"></div>
-			  <div style=" position:absolute;bottom:20px;left:10px"> <!--设置字体位置-->
-              <p><a href="#4" class="cross-link" title="Go to Page 4">&#171; 上一页</a></p>
-			  </div>
-            </div>
+         
           </div>
         </div>
         <!-- .panelContainer -->
@@ -203,12 +149,13 @@ date: <input type="text" name="date" size="12" value="">
   <!-- end of templatemo_content -->
 </div>
 <!-- end of templatemo_content_wrapper -->
-<div id="templatemo_footer_wrapper">
-   <div align="center" style="color:#000000"><b>网站设计leisureg</b>
+<div id="templatemo_footer_wrapper" >
+   <div align="center" style="color:#000000">网站设计leisureg
    <div class="cleaner_h10"></div>  
-   <b> 版权所有 &copy; 2012-2013</b></div> 
+    版权所有 &copy; 2012-2013</div> 
   <!-- end of templatemo_footer -->
 </div>
 <!-- end of templatemo_footer_wrapper -->
+</body>
 </body>
 </html>
